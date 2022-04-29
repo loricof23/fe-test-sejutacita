@@ -1,0 +1,25 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.btn-pagination {
+  background: black;
+  border:1px solid black;
+  color: white;
+  text-weight: 700;
+  border-radius: 3px;
+  padding: 5px 15px;
+}
+
+.btn-pagination:first-child {
+  margin-right: 20px;
+}
+
+.btn-pagination:disabled {
+  cursor: no-drop;
+  background: grey;
+  border: 1px solid grey;
+  margin-right: 20px;
+}
